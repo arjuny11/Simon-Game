@@ -4,7 +4,7 @@ let started = false;
 let level=0;
 let btns=["red", "yellow", "green", "blue"];
 let h2= document.querySelector("h2");
-document.addEventListener("keypress", function(){
+document.addEventListener("onmouseover", function(){
     if(started==false){
         console.log("game is started");
         started=true;
